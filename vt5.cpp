@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 void spaceControl(int n) {
     for (int i = 0; i < n; i++) {
         std::cout << " ";
@@ -29,8 +28,6 @@ public:
         logOne(first);
         log(rest...);
     }
-
-
 };
 int main() {
     Logger logger(4);  // отступ 4 пробела
