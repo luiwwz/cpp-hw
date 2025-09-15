@@ -29,6 +29,7 @@ public:
         log(rest...);
     }
 };
+
 int main() {
     Logger logger(4);  // отступ 4 пробела
     logger.log("Hello", 42, 3.14, 'A');
